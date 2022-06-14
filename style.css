@@ -1,0 +1,103 @@
+body {
+    font-family: 'Martel', serif;
+
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+.image {
+    background: url(img1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+}
+
+.wrapper {
+    color: antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.wrapper h1 {
+    font-size: 2.4rem;
+    text-align: center;
+
+}
+
+.form {
+    text-align: center;
+}
+
+.form .input {
+    display: block;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    outline: none;
+    border: none;
+
+}
+
+.form button {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align: center;
+    background-color: aquamarine;
+    color: aliceblue;
+    border: none;
+    border-radius: .3rem;
+    padding: .6rem;
+    margin-top: 1rem;
+
+}
+
+.wrapper span {
+    display: inline-block;
+    margin-left: 1.7rem;
+    margin-bottom: 1rem;
+
+}
+
+
+.product {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .3rem;
+
+}
+
+.list {
+    float: left;
+    width: 32%;
+    margin-left: 2%;
+
+}
+
+.list:first-of-type {
+    margin-left: 0;
+}
+
+.list .details .summary {
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+@media screen and (max-width:700px) {
+    .product {
+        width: 100%;
+        float: none;
+    }
+
+}
